@@ -13,13 +13,12 @@ public class CountOccurance {
 				hm.put(a[i], hm.get(a[i])+1);
 			}
 			else{
+				
 				hm.put(a[i], 1);
 			}
 		}
 		System.out.println(hm);
-		
-		
-		
+				
 		
 
 	}
