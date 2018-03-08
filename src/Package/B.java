@@ -1,0 +1,13 @@
+package Package;  
+import Package.*;  
+  
+class B
+{  
+	
+  public static void main(String args[])
+  {  
+   A obj = new A(); 
+   obj.msg();  
+  
+  }  
+}  

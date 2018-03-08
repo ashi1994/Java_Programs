@@ -1,0 +1,23 @@
+package String;
+import java.util.*;
+ 
+class ReverseString
+{
+   public static void main(String args[])
+   {
+      String original;//reverse = "";
+      Scanner in = new Scanner(System.in);
+ 
+      System.out.println("Enter a string to reverse");
+      original = in.nextLine();
+      char ch[]=original.toCharArray();
+ 
+      //int length = ch.length();
+ 
+      for ( int i = ch.length - 1 ; i >= 0 ; i-- )
+         //reverse = reverse + original.charAt(i);
+ 
+      System.out.println(ch[i]);
+      
+   }
+}
