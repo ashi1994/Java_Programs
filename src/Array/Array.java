@@ -16,5 +16,7 @@ for(int arr:a)
 	System.out.println(arr);
 
 
+
+
 }
 }  
