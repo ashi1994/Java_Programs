@@ -6,7 +6,7 @@ public class RemoveDuplicate {
      
     {
      
-            int array[] = { 10, 20, 30, 20, 40, 40, 50, 60, 70, 80 };// array of ten elements
+            int array[] = { 10, 20, 30, 20, 40, 40, 50, 60, 70, 80,40,40 };// array of ten elements
             int size = array.length;
             System.out.println("Size before deletion: " + size);
  

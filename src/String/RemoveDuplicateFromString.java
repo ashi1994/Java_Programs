@@ -9,11 +9,12 @@ public class RemoveDuplicateFromString {
 
 		String duplicate="hello";
 		char ch;
-		HashSet hs=new HashSet();
+		HashSet<Character> hs=new HashSet<>();
 		for(int i=0;i<duplicate.length();i++){
 			ch=duplicate.charAt(i);
 			hs.add(ch);
 		}
+		
 		System.out.println(hs);
 		for(Object ch1:hs)
 			System.out.print(ch1);
