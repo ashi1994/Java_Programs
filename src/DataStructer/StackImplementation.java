@@ -1,8 +1,9 @@
 package DataStructer;
 
 /**
- * application of stack is DFS,parsing,tower of hanoi and expressio conversion
- * 
+ * Application of stack is DFS,Parsing,tower of hanoi and expressio conversion(Infix to Postfix, Postfix to Prefix etc)
+ * Insertion and deletion from one end called top.
+ * For inserting the node we say Push operation and for remove the node Pop operation
  * @author aranjan
  *
  */
@@ -30,7 +31,7 @@ public class StackImplementation {
 	
 	 /**
      * This method returns true if the stack is full
-     * @return
+     * @return boolean
      */
 	
 	public boolean isStackFull(){
@@ -40,7 +41,7 @@ public class StackImplementation {
 	/**
      * This method returns true if the stack is 
      * empty
-     * @return
+     * @return boolean
      */
 	
 	public boolean isStackEmpty() {
