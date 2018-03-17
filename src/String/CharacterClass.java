@@ -23,14 +23,11 @@ public class CharacterClass {
 			uc++;
 		else if(Character.isWhitespace(c))
 			space++;
-		//else if(Character.is)
-		
-
 	}
-		System.out.println(digit);
-		System.out.println(lc);
-		System.out.println(uc);
-		System.out.println(space);
+		System.out.println("number of digit ="+digit);
+		System.out.println("number of lower character ="+lc);
+		System.out.println("number of upper character ="+uc);
+		System.out.println("number of space ="+space);
 
 	}
 }
