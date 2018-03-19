@@ -19,15 +19,18 @@ class TestDeadlockExample
           synchronized (resource1) 
           {  
            System.out.println("Thread 1: locked resource 1");  
-           try {
+           try
+           {
 			Thread.sleep(100);
-		} catch (InterruptedException e) {
+		   } 
+           catch (InterruptedException e) 
+           {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
-		}
+		   }
   
            synchronized (resource2)
-            {  
+           {  
             System.out.println("Thread 1: locked resource 2");  
            }  
          }  
@@ -35,16 +38,16 @@ class TestDeadlockExample
     };  
   
     // t2 tries to lock resource2 then resource1  
-    Thread t2 = new Thread()
-     {  
-      public void run()
-       {  
-        synchronized (resource1)
-         {  
-          System.out.println("Thread 2: locked resource 2");  
-          try {
-			Thread.sleep(100);
-		} catch (InterruptedException e) {
+    Thread t2 = new Thread() {  
+    	public void run()
+    	{  
+    		synchronized (resource1)
+    		{  
+    			System.out.println("Thread 2: locked resource 2");  
+    			try {
+    				Thread.sleep(100);
+    				}
+          catch (InterruptedException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
