@@ -9,4 +9,7 @@ class StaticImportExample
   
  }   
 }  
+/**
+ * JAVA -  5
+ */
    

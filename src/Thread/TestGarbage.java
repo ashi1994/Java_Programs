@@ -1,7 +1,7 @@
 package Thread;
 public class TestGarbage{  
   
- public void finalize(){
+ protected void finalize(){
 	 System.out.println("Cleanup completed and Object is ready for grabage collection");
 	 }  
  

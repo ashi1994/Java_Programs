@@ -24,3 +24,13 @@ public static void main(String...s)
 	h.show();
 }
 }
+/**
+ * From Java 9 NOW
+Constant variables--in java 7
+Abstract methods--in java 7
+Default methods--in java 8
+Static methods--in java 8
+Private methods--in Java 9
+Private Static methods--in java 9
+ * 
+*/
