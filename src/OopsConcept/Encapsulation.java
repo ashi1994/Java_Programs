@@ -5,6 +5,8 @@ package OopsConcept;
  * Now we can use setter and getter methods to set and get the data in it
  * The Java Bean class is the example of fully encapsulated class
  * By providing only setter or getter method, you can make the class read-only or write-only.
+ * Encapsulation can be achieved by: Declaring all the variables in the class as private and writing public
+ *  methods in the class to set and get the values of variables.
  */
 public class Encapsulation {
 	
@@ -18,3 +20,7 @@ public class Encapsulation {
 	}
 }
 
+//https://www.geeksforgeeks.org/encapsulation-in-java/
+
+
+//Encapsulation is data hiding(information hiding) while Abstraction is detail hiding(implementation hiding).

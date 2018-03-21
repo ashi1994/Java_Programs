@@ -5,7 +5,8 @@ import java.util.Scanner;
 public class FiboWithRecursion {
 	
 	public static int fibonacco(int number) {
-		if(number<=1)
+		if(number==1||number==0)
+			//if(number<=1)
 			return number;
 		return (fibonacco(number-1)+fibonacco(number-2));
 	}

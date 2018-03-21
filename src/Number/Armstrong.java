@@ -13,8 +13,8 @@ class Armstrong {
       while(n>0)    
         {     
          reminder=n%10;    
-           n=n/10;     
-            c=c+(reminder*reminder*reminder);      
+         n=n/10;     
+         c=c+(reminder*reminder*reminder);      
         }      
         if(temp==c)         
           System.out.println("Armstrong number");       

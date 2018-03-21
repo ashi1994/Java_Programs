@@ -1,14 +1,15 @@
 package Number;
-class Numberreverse
+class PalindromeNumber
   {
     public static void main(String...s)
     {
-    int number=123;
+    int number=121;
     int reverse=0;
+    int remainder;
       int temp=number;
        while(number>0)
        {
-                  int remainder=number%10;
+                  remainder=number%10;
                   number=number/10;
                   reverse=reverse*10+remainder;
       

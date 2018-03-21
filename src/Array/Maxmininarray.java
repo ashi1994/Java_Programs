@@ -4,7 +4,7 @@ public class Maxmininarray {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		int a[]={1,44,12,23};
+		int a[]={11,44,12,23,77};
 		
 		int max=a[0];
 		int min=a[0];
@@ -12,11 +12,11 @@ public class Maxmininarray {
 		{
 			if(a[i]>max)
 				max=a[i];
-			else if(min>a[i])
+		else if(min>a[i])
 				min=a[i];
 		}
-		System.out.println(max);
-		System.out.println(min);
+        System.out.println(max);
+     	System.out.println(min);
 
 	}
 
