@@ -4,6 +4,7 @@ public class CreateSinglylinkedList {
 	static Node head;//head of list
 	
 	 /* Linked list Node.  This inner class is made static so that main() can access it */
+	
 	static class Node {
 		int data;
 		Node next;
@@ -33,7 +34,7 @@ public class CreateSinglylinkedList {
 		head.next=second;
 		second.next=third;
 		addd.printList(head);
-	
+		
 	}
 
 }

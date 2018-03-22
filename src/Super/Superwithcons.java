@@ -8,22 +8,17 @@ class C
 
 }
 
-class D extends C
+class Superwithcons extends C
 {
-	D()// super add by default in constructer
+	Superwithcons()// super add by default in constructer
 	{
-		
-      System.out.println("beta ka constructer chal raha hai");
-
-	}
+		System.out.println("beta ka constructer chal raha hai");
+    }
       
 public static void main(String...s)
 {
-	
-  D d=new D();
+	new Superwithcons();
 
 }
-
-
 }
 
