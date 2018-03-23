@@ -4,8 +4,8 @@ public class TestVector
 {
   public static void main(String[] args) 
    {
-      Vector ve = new Vector();
-      System.out.println("intial size  "+ve.capacity());
+      Vector<Integer> ve = new Vector<Integer>();
+      System.out.println("intial size  "+ve.capacity());//Initial capacity: 10
        ve.addElement(10);//any one can used add() or addElement()
        ve.add(20);
        ve.add(30);
@@ -15,8 +15,8 @@ public class TestVector
        for(int i=1;i<=10;i++)
         ve.add(i);
        System.out.println(ve);
-       System.out.println("after size  "+ve.capacity());//here 15 element now so size is double i.e 20
-       Enumeration en = ve.elements();
+       System.out.println("after size  "+ve.capacity());//Here 15 element now so size is Double i.e 20
+       Enumeration<Integer> en = ve.elements();
        
        while(en.hasMoreElements())
        {

@@ -14,6 +14,5 @@ class ThisWithConstructor
 public static void main(String...s)
 {
 	new ThisWithConstructor("ashiwani");
-	
-}
+	}
 }

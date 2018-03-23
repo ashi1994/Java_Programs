@@ -2,7 +2,7 @@ package DataStructer;
 
 import java.util.LinkedList;
 
-public class InsertNodeFirst {
+public class InsertNodeAtAnyPlace {
 	
 	static Node head;
 	static class Node{
@@ -70,7 +70,7 @@ public class InsertNodeFirst {
 	    }
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		InsertNodeFirst ins=new InsertNodeFirst();
+		InsertNodeAtAnyPlace ins=new InsertNodeAtAnyPlace();
 		ins.head=new Node(5);
 		Node sec=new Node(6);
 		Node third=new Node(7);

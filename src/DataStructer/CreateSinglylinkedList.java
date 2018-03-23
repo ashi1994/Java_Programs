@@ -23,13 +23,11 @@ public class CreateSinglylinkedList {
             node = node.next;
         }
     }
-	
-
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		CreateSinglylinkedList addd=new CreateSinglylinkedList();
 		addd.head=new Node(5);
-		Node second=new Node(7);
+		Node second=new Node(556);
 		Node third=new Node(44);
 		head.next=second;
 		second.next=third;
