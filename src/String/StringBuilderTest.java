@@ -18,7 +18,7 @@ public class StringBuilderTest {
 
 }
 
-//Lenght give actual size of size.
+//Length give actual size of size.
 //capacity give number of character spaces that have been allocated. 
 //It does not give gurantee for Synchronisation
 //it comes in java version 1.5

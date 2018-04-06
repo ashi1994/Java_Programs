@@ -21,3 +21,5 @@ public class RemoveCharacterFromString {
         return strBuild.toString ();
     }
 }
+
+
