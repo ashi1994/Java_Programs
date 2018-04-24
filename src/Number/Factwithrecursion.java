@@ -10,6 +10,6 @@ class Factwithrecursion
     }
 public static void main(String...s)
 {
-    factorial(5);
+    System.out.println(factorial(5));
 	}
 }    

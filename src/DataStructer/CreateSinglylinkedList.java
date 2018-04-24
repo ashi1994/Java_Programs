@@ -19,7 +19,7 @@ public class CreateSinglylinkedList {
 	}
 	void printList(Node node) {
         while (node != null) {
-            System.out.print(node.data + " ");
+            System.out.print(node.data+" ");
             node = node.next;
         }
     }

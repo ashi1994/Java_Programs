@@ -3,11 +3,14 @@ import java.util.Scanner;
 class Prime1 {
 	public static void main(String args[])
 	{ 
-		int n, i, res; 
+		int n, i;
 		boolean flag=false;
 		Scanner scan= new Scanner(System.in); 
 		System.out.println("Please Enter a No."); 
 		n=scan.nextInt(); 
+		  if(n==0 || n==1)
+			   System.out.println(" not a prime number");
+		  else{	  
 		for(i=2;i<=n/2;i++){
 			if(n%i==0)
 			{
@@ -15,14 +18,16 @@ class Prime1 {
 				break; 
 				
 			}
-			
 		} 
+		scan.close();
 		
     if(!flag)
  System.out.println(n + " is Prime Number");
     else 
  System.out.println(n + " is not Prime Number");
+    System.out.println(System.getProperty("user.dir"));
     
+	}
 	}
 }
 /**

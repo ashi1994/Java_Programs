@@ -6,7 +6,6 @@ class Animal
       System.out.println("I am walking");
    }
 }
-
 class Bird extends Animal
 {
    void fly()
@@ -20,11 +19,9 @@ class Bird extends Animal
 }
 class Solution
 {
-
-   public static void main(String args[])
+	public static void main(String args[])
    {
-
-     Bird bird = new Bird();
+	 Bird bird = new Bird();
      bird.walk();
      bird.fly();
      bird.sing();

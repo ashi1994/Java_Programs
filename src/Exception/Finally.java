@@ -10,7 +10,7 @@ class Finally
         System.out.println(a[3]);//array out of bound exception
     }
 
-	catch(NullPointerException |ArithmeticException |ArrayIndexOutOfBoundsException  e)//multiple exception in single catch from java 7
+	catch(NullPointerException | ArithmeticException | ArrayIndexOutOfBoundsException  e)//multiple exception in single catch from java 7
    {
    	System.out.println(e);///means sabse pahle higher ni ie "EXCEPTION" not in first caught
    }

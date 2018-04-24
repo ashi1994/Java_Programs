@@ -33,6 +33,10 @@ class SpecialCaseAbstraction implements InterfaceClassOne, InterfaceClassTwo
     public void extraMethod() {
     	
     }
+    //This class own method
+    public void show(){
+    	
+    }
    
 
 	public static void main(String[] args) {

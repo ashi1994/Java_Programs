@@ -48,11 +48,7 @@ class child extends InheritanceExample {
 		 * Exceptional case
 		 */
 		
-		//child ch=new InheritanceExample(); not possible,it will throw type mismatch error
-		
-		
-		
-		
+		//child ch=new InheritanceExample(); not possible,it will throw type mismatch error		
 
 	}
 

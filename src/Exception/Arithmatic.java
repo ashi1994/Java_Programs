@@ -11,10 +11,9 @@ public static void main(String...s)
 	}
 
 	catch(ArithmeticException e)//note if the Base "exception" is in first catch and then arithematic it is erroorr.vice versa true ie no error
-  {
+	{
          e.printStackTrace();
-
-  }
+         }
 
   catch(Exception e)// note "exception" only also catch all exception but it is overhead and bad programming
   {

@@ -12,7 +12,7 @@ class LongestPalindrome {
         String currentPalindrome = "";
         String longestPalindrome = "";
         for (int centerIndex = 1; centerIndex < input.length() - 1; centerIndex++) {
-            leftIndex = centerIndex - 1; 
+            leftIndex = centerIndex - 1;
             rightIndex = centerIndex + 1;
             while (leftIndex >= 0 && rightIndex < input.length()) 
             {

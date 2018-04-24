@@ -29,7 +29,7 @@ class CountAllCharacter
            }
           }  
           
-          if(counter>0) 
+          if(counter>0) //if you do counter>1 then it will print duplicate only.
              System.out.println(c+"--"+counter);
 
         }
