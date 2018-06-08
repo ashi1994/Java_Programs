@@ -7,10 +7,12 @@ public static void main(String[] args)
 int c; 
    Random t = new Random();
  //for single random number
-   System.out.println(t.nextInt(100));
+   System.out.println("Single Random Number :"+t.nextInt(100));
     // 10 random integers in [0, 100]
+   
+   System.out.println("Multiple Random Number :");
     for (c = 1; c <=10; c++)
-     {      
+     {   
         System.out.println(t.nextInt(100));   
       }
 

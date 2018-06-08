@@ -3,7 +3,7 @@ class PalindromeNumber
   {
     public static void main(String...s)
     {
-    int number=121;
+    int number=12333231;
     int reverse=0;
     int remainder;
       int temp=number;
@@ -12,12 +12,7 @@ class PalindromeNumber
                   remainder=number%10;
                   number=number/10;
                   reverse=reverse*10+remainder;
-      
        } 
-
-
-       //System.out.println(reverse); 
-       
        if(temp==reverse)
        	System.out.println("palindrome");
        else

@@ -11,18 +11,18 @@ package OopsConcept;
 
 public class PolymorphismByOverloading {
 	
-	public void add(int a,int b) {
+	public static void add(int a,int b) {
 		System.out.println(a+b);
 	}
-	private void add(String s1,String s2) {
+	private static void add(String s1,String s2) {
 		System.out.println(s1+s2);
 	}
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		PolymorphismByOverloading po=new PolymorphismByOverloading();
-		po.add("hello","java");
-		po.add(4, 6776);
+		//PolymorphismByOverloading po=new PolymorphismByOverloading();
+		add("hello","java");
+		add(4, 6776);
 	}
 
 }

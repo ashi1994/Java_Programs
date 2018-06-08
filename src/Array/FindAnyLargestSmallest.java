@@ -4,6 +4,7 @@ public class FindAnyLargestSmallest {
 
 	public static int maxInArray(int a[]) {
 		int temp;
+		//Here we will do first sorting
 		for(int i=0;i<a.length;i++){
 			for(int j=i+1;j<a.length;j++){
 				if(a[i]>a[j]){
